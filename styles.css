@@ -1,0 +1,337 @@
+.main-body {
+	margin: 0px;
+	background-color: #000;
+	font-family: sans-serif;
+    color: #fff;
+}
+
+.title_bar {
+    text-align: center;
+    height: 200px;
+    position: relative;
+    max-width: 950px;
+    margin: auto;
+}
+
+.title_logo_link {
+	position: absolute;
+    left: 10px;
+}
+
+.title_text {
+    font-size: 3.5em;
+    display: inline-block;
+    position: absolute;
+    left: 160px;
+    top: 80px;
+    white-space: nowrap;
+}
+
+.mlk_quote_container {
+	text-align: center;
+    margin: auto;
+    max-width: 950px;
+}
+
+.mlk_quote_line {
+    font-size: 2em;
+    font-style: italic;
+    text-align: center;
+}
+
+.mlk_sig {
+    margin: 20px;
+}
+
+.component_container {
+    max-width: 1700px;
+	text-align: center;
+    margin: 20px auto;
+}
+
+.initiative_component {
+    width: 100%;
+    max-width: 800px;
+    display: inline-block;
+    margin: 10px;
+    background-color: #eee;
+    color: #000;
+}
+
+.component_title {
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 1.5em;
+    background-color: #444;
+    color: #fff;
+}
+
+.component_details {
+    width: 100%;
+    background-color: #eee;
+    color: #000;
+    padding: 10px;
+    max-width: 780px;
+}
+
+.action_text {
+    width: 100%;
+    padding: 10px;
+    max-width: 770px;
+    font-size: 1.4em;
+    color: #fff;
+    background-color: #00c;
+    border-radius: 10px;
+    margin: 0px 5px 5px 5px;
+    text-decoration: none;
+    
+    text-shadow: 2px 2px 0 rgba(0,0,0,0.3);
+    background-image: linear-gradient(to bottom, #7fb0fb, #014879);
+    box-shadow: #222 0px 3px 3px ;
+}
+
+.action_text:hover {
+    background-image: linear-gradient(to bottom, #0a73bd, #024c7d);
+}
+
+.action_text:active {
+    background-image: linear-gradient(to bottom, #E2C700, #DD6000);
+}
+
+.section_action_text {
+    width: 80%;
+    padding: 10px;
+    font-size: 1.4em;
+    color: #fff;
+    background-color: #00c;
+    border-radius: 10px;
+    text-decoration: none;
+    text-shadow: 2px 2px 0 rgba(0,0,0,0.3);
+    background-image: linear-gradient(to bottom, #7fb0fb, #014879);
+    box-shadow: #222 0px 3px 3px ;
+    margin: 0px auto;
+}
+
+.section_action_text:hover {
+    background-image: linear-gradient(to bottom, #0a73bd, #024c7d);
+}
+
+.section_action_text:active {
+    background-image: linear-gradient(to bottom, #E2C700, #DD6000);
+}
+
+.component_link {
+    text-decoration: none;
+}
+
+.intro_container {
+	text-align: center;
+    margin: 60px auto 20px;
+    font-size: 1em;
+    max-width: 1000px;
+}
+
+.intro_para {
+    margin: 20px;
+}
+
+.section_container {
+	text-align: center;
+    margin: 60px auto 20px;
+    font-size: 1em;
+    max-width: 1000px;
+}
+
+.section_title {
+    margin: 20px;
+    font-size: 2em;
+}
+
+.section_para {
+    margin: 20px;
+    text-align: left;
+}
+
+.section_para_link {
+    color: #E2C700;
+}
+
+.section_para_link:active {
+    color: #DD6000;
+}
+
+.section_para_link:hover {
+    color: #DD6000;
+}
+
+.section_list {
+    text-align: left;
+}
+
+.section_list_item {
+    margin: 20px 0px;
+}
+
+.section_list_item_title {
+    font-weight: 800;
+    display: inline;
+	text-decoration: underline;
+}
+
+.video_container_container {
+    text-align: center;
+    height:100%;
+    max-height: 634px;
+    width:100%;
+    max-width: 1124px;
+    margin: 10px auto;
+}
+
+.video_container {
+    height:0;
+    padding-bottom:56.25%;  /* 16:9 */
+	position: relative; /* Do this so the position absolute of the enclosed iframe anchors here */
+}
+
+.video_frame {
+    border: 2px solid #777777;
+	left:0;
+	top:0;
+	height:100%;
+    max-height: 630px;
+	width:100%;
+    max-width: 1120px;
+	position:absolute;
+}
+
+.social_media_links {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.social_media_logo:hover {
+    background-color: #222;
+}
+
+.social_media_logo:active {
+    background-color: #E2C700;
+}
+
+.social_media_logo {
+    padding: 10px;
+    height: 32px;
+}
+
+.pbtd_logo {
+    height: 200px;
+}
+
+.supporter_logo {
+    height: 193px;
+    margin: 10px;
+}
+
+.supporters_title {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 400;
+    text-align: center;
+    margin: 20px;
+}
+
+.supporters_desc {
+    color: #fff;
+    font-size: 1.2em;
+    margin: 10px;
+    text-align: center;
+}
+
+.supporter_logos {
+    text-align: center;
+    margin: 20px;
+}
+
+.logo_link {
+    margin: 20px;
+}
+
+.parliamentarian_link_wrapper {
+    width: 200px;
+    padding: 10px 0px 10px 0px;
+    margin: 10px;
+    display: inline-block;
+    background-color: #fff;
+}
+
+.parliamentarian_link {
+    color: #000;
+    text-decoration: none;
+}
+
+.parliamentarian_links {
+    text-align: center;
+    margin: 20px;
+}
+
+.parliamentarian_img {
+    height: 200px;
+}
+
+.site_footer {
+    background-color: #444;
+    width: 100%;
+    min-height: 400px;
+    color: #fff;
+    text-align: center;
+}
+
+.footer_link {
+	display: block;
+	min-height: 58px;
+}
+
+.footer_link:hover {
+	background-color: #222;
+}
+
+.footer_link:active {
+	background-color: #E2C700;
+}
+
+.footer_section {
+    width: 100%;
+    max-width: 400px;
+    margin: 30px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+}
+
+.footer_section_title {
+    font-size: 2em;
+    padding: 0px 10px 10px;
+}
+
+.media_footer_link_text {
+    font-size: 1.5em;
+    color: #fff;
+    display: inline-block;
+    position: relative;
+    top: -16px;
+}
+
+.footer_link_text {
+    font-size: 1.5em;
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+}
+
+.candle_red {
+    color: #DD6000;
+}
+
+.candle_orange {
+    color: #E2C700;
+}
