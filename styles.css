@@ -342,3 +342,10 @@
     min-width: 300px;
     margin: 10px;
 }
+
+.index_poster_img {
+    width:90%;
+    max-width: 1124px;
+    min-width: 300px;
+    margin: 10px;
+}
